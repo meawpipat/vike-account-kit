@@ -8,7 +8,7 @@ npm create bati --- --react --tailwindcss --telefunc --hono --cloudflare
 
 * [React](#react)
 
-  * [`Create .env file`](#envfile)
+  * [`Create .env file`](#create-env-file)
   * [`/pages/+config.ts`](#pagesconfigts)
   * [Routing](#routing)
   * [`/pages/_error/+Page.jsx`](#pages_errorpagejsx)
