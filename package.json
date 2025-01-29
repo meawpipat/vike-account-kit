@@ -8,31 +8,38 @@
     "deploy": "run-s build deploy:wrangler"
   },
   "dependencies": {
+    "@account-kit/core": "^4.11.0",
+    "@account-kit/infra": "^4.11.0",
+    "@account-kit/react": "^4.11.0",
     "@hono/node-server": "^1.13.7",
-    "@universal-middleware/hono": "^0.3.3",
-    "hono": "^4.6.16",
-    "@vitejs/plugin-react": "^4.3.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vike-react": "^0.5.11",
+    "@tanstack/react-query": "^5.50.1",
     "@universal-middleware/core": "^0.3.3",
+    "@universal-middleware/hono": "^0.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "hono": "^4.6.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "telefunc": "^0.1.83",
-    "vike-cloudflare": "^0.1.6"
+    "viem": "^2.20.0",
+    "vike-cloudflare": "^0.1.6",
+    "vike-react": "^0.5.11",
+    "wagmi": "^2.12.7"
   },
   "devDependencies": {
-    "typescript": "^5.7.3",
-    "vike": "^0.4.214",
-    "vite": "^6.0.7",
+    "@cloudflare/workers-types": "^4.20250109.0",
     "@hono/vite-dev-server": "^0.18.0",
     "@types/node": "^18.19.70",
     "@types/react": "^19.0.6",
     "@types/react-dom": "^19.0.3",
-    "tailwindcss": "^3.4.17",
-    "postcss": "^8.4.49",
     "autoprefixer": "^10.4.20",
-    "@cloudflare/workers-types": "^4.20250109.0",
-    "wrangler": "^3.101.0",
-    "npm-run-all2": "^7.0.2"
+    "buffer": "^6.0.3",
+    "npm-run-all2": "^7.0.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.7.3",
+    "vike": "^0.4.214",
+    "vite": "^6.0.7",
+    "wrangler": "^3.101.0"
   },
   "type": "module"
 }
