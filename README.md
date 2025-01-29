@@ -8,6 +8,7 @@ npm create bati --- --react --tailwindcss --telefunc --hono --cloudflare
 
 * [React](#react)
 
+  * [`Create .env file`](#envfile)
   * [`/pages/+config.ts`](#pagesconfigts)
   * [Routing](#routing)
   * [`/pages/_error/+Page.jsx`](#pages_errorpagejsx)
@@ -19,7 +20,7 @@ npm create bati --- --react --tailwindcss --telefunc --hono --cloudflare
 
 This app is ready to start. It's powered by [Vike](https://vike.dev) and [React](https://react.dev/learn).
 
-### `/pages/+config.ts`
+### `Create .env file`
 Create your .env file and add the variables PUBLIC_ENV__WALLETCONNECT_PROJECT_ID and ALCHEMY_API_KEY with your WalletConnect project ID and Alchemy API key.
 
 ### `/pages/+config.ts`
